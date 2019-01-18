@@ -60,13 +60,11 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/docusaurus.svg`} />
+        <Logo img_src={`${baseUrl}img/tools.svg`} />
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('brandjectives.html')}>Example Link</Button>
-            <Button href={docUrl('brandlogo.html')}>Example Link 2</Button>
+            <Button href="brandjectives.html">Explore the Kit</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -79,6 +77,14 @@ class Index extends React.Component {
     const {config: siteConfig, language = ''} = this.props;
     const {baseUrl} = siteConfig;
 
+    const Button = props => (
+      <div className="pluginWrapper buttonWrapper">
+        <a className="button" href={props.href} target={props.target}>
+          {props.children}
+        </a>
+      </div>
+    );
+    
     const Block = props => (
       <Container
         padding={['bottom', 'top']}
@@ -93,11 +99,14 @@ class Index extends React.Component {
     );
 
     const FeatureCallout = () => (
+      <div class="blackSection">
       <div
         className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        style={{textAlign: 'center', position: 'relative'}}>
+        <h2>Our Brandjectives™</h2>
+        <p>What are Brandjectives™?</p>
+        <Button href="brandjectives.html">These are Brandjectives™</Button>
+      </div>
       </div>
     );
 
@@ -142,22 +151,26 @@ class Index extends React.Component {
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
+      <div className="blackSection">
+      <Block layout="fourColumn" >
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: 'View the J2 color library (spoiler: its mostly black)<br><br><Button class="button" href="colors.html">Color Library</Button>',
+            image: `${baseUrl}img/color_circle.png`,
             imageAlign: 'top',
-            title: 'Feature One',
+            imageLink: 'colors.html',
+            title: 'Color Library',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/docusaurus.svg`,
+            content: 'View the J2 typography library.<br><br><Button class="button" href="typography.html">Typography Library</Button>',
+            image: `${baseUrl}img/text-color.png`,
+            imageLink: 'typography.html',
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Typography',
           },
         ]}
       </Block>
+      </div>
     );
 
     const Showcase = () => {
@@ -176,9 +189,9 @@ class Index extends React.Component {
       const pageUrl = page => baseUrl + (language ? `${language}/` : '') + page;
 
       return (
-        <div className="productShowcaseSection paddingBottom">
+        <div className="productShowcaseSection usersSection paddingBottom">
           <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
+          <p>The J2 Brand Kit System is used by:</p>
           <div className="logos">{showcase}</div>
           <div className="more-users">
             <a className="button" href={pageUrl('users.html')}>
@@ -195,9 +208,9 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
+          {/*<LearnHow />*/}
+          {/*<TryOut />*/}
+          {/*<Description />*/}
           <Showcase />
         </div>
       </div>

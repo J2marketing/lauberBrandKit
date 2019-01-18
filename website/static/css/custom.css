@@ -31,6 +31,31 @@ h2{
     color:#999;
     text-align:center;
 }
+
+.homeContainer .inner{
+    margin-top:10%;
+    margin-bottom:10%;
+}
+.blackSection{
+    background-color:#333;
+}
+.blackSection h2, .blackSection p{
+    color:white;
+}
+.blackSection .button{
+    background-color:white;
+    color:#333;
+}
+.blackSection .button:hover{
+    background-color:#333;
+    color:white;
+}
+.productShowcaseSection h2{
+    margin-top:0;
+}
+.usersSection{
+    padding-top:10vh;
+}
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 

@@ -41,9 +41,11 @@ function Help(props) {
       <Container className="mainContainer documentContainer postContainer">
         <div className="post">
           <header className="postHeader">
-            <h1>Need help?</h1>
+            <h1>INFORMATION</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>This is the brand kit for J2 Marketing, if you've stumbled upon this page, feel free to poke around!
+            
+          </p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>
