@@ -14,7 +14,19 @@ h2{
     font-style:italic;
     text-transform:uppercase;
 }
-
+.button{
+    font-family:'Open Sans', sans-serif;
+    font-weight:bold;
+    font-size:1em;
+    background-color:#333;
+    color:white;
+    border-radius:0;
+}
+.button:hover{
+    transition: 400ms all;
+    background-color:white;
+    color:#333;
+}
 .descriptionText{
     color:#999;
     text-align:center;

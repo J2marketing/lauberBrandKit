@@ -34,9 +34,9 @@ class Users extends React.Component {
               <p>This project is used by many folks</p>
             </div>
             <div className="logos">{showcase}</div>
-            <p>Are you using this project?</p>
+            <p>Does your company need a brand kit? (the answer is yes)</p>
             <a href={editUrl} className="button">
-              Add your company
+              Contact Us
             </a>
           </div>
         </Container>
