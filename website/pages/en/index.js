@@ -99,13 +99,13 @@ class Index extends React.Component {
     );
 
     const FeatureCallout = () => (
-      <div class="blackSection">
+      <div className="blackSection">
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center', position: 'relative'}}>
         <h2>Our Brandjectives™</h2>
         <p>What are Brandjectives™?</p>
-        <Button href="brandjectives.html">These are Brandjectives™</Button>
+        <Button href="docs/brandjectives.html">These are Brandjectives™</Button>
       </div>
       </div>
     );
@@ -155,16 +155,16 @@ class Index extends React.Component {
       <Block layout="fourColumn" >
         {[
           {
-            content: 'View the J2 color library (spoiler: its mostly black)<br><br><Button class="button" href="colors.html">Color Library</Button>',
+            content: 'View the J2 color library (spoiler: its mostly black)<br><br><a class="button" href="docs/colors.html">Color Library</a>',
             image: `${baseUrl}img/color_circle.png`,
             imageAlign: 'top',
-            imageLink: 'colors.html',
+            imageLink: 'docs/colors.html',
             title: 'Color Library',
           },
           {
-            content: 'View the J2 typography library.<br><br><Button class="button" href="typography.html">Typography Library</Button>',
+            content: 'View the J2 typography library.<br><br><a class="button" href="docs/typography.html">Typography Library</a>',
             image: `${baseUrl}img/text-color.png`,
-            imageLink: 'typography.html',
+            imageLink: 'docs/typography.html',
             imageAlign: 'top',
             title: 'Typography',
           },
