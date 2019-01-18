@@ -1,5 +1,24 @@
 /* your custom css */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size:3em;
+    font-style:italic;
+    text-transform:uppercase;
+}
 
+h2{
+    font-size:2em;
+    font-style:italic;
+    text-transform:uppercase;
+}
+
+.descriptionText{
+    color:#999;
+    text-align:center;
+}
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
