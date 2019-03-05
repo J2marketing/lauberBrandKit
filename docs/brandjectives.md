@@ -5,22 +5,22 @@ sidebar_label: Brandjectives™ Overview
 ---
 
 So what are brandjectives™? At J2, Brandjectives™ are how we communicate the over-arching themes of a brand. Brandjectives are both adjectives that describe your business, and objectives for your marketing. Aim to fulfill every brandjective with every piece of marketing material that you create.
-
+    
 ## Brandjectives™
-<img class="downloadable" src="https://goj2.com/wp-content/uploads/2018/10/DTSB-Outdoor-Sign.jpg">
+<img class="downloadable" src="../img/DTSB-Outdoor-Sign.jpg">
 <p class="descriptionText">Clear Outdoor Signage</p>
 
 ## Clear
 
 DTSB needs to, above all else, communicate clearly. It doesn’t matter if all of our graphics/words are fun, engaging, exciting, and interesting, if they don’t have any helpful information. 
 
-<img class="downloadable" src="https://goj2.com/wp-content/uploads/2018/10/Untitled.png">
+<img class="downloadable" src="../img/SchoolListings.png">
 
 ## Local
 
 The most obvious, and yet the most important goal is to be local. Everything we do should focus on South Bend.
 
-<img class="downloadable" src="https://goj2.com/wp-content/uploads/2018/10/Untitled2.png">
+<img class="downloadable" src="../img/WhatWeDo.png">
 
 ## Orci
 
