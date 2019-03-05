@@ -1,6 +1,6 @@
 /* your custom css */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
-
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 h1, h2, h3, h4, h5, h6, p, a{
     font-family: 'Open Sans', sans-serif;
 }
