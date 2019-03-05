@@ -78,7 +78,10 @@ const siteConfig = {
     ]
   },
   */
-
+  stylesheets: [
+    'https://fonts.googleapis.com/css?family=Open+Sans:400,700',
+    'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
+  ],
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} J2 Marketing`,
 
