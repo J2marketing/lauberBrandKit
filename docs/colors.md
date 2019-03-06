@@ -2,8 +2,27 @@
 id: colors
 title: Colors
 ---
-## HTML injection
-{@colorBlurb: #333}
+# Color Palettes
+
+<h2 class="centeredText">Main Color Palette</h2>
+
+<p class="descriptionText">The colors to be used in all primary communications.</p>
+
+<div class="row"><div class="thirdWidth"> 
+
+{@colorBlurb: #EDEDED,237.237.237,Clouds}
+
+</div><div class="thirdWidth">
+
+{@colorBlurb: #212121,33.33.33,Also|Clouds|(During|a|Thunderstorm)}
+
+</div><div class="thirdWidth">
+
+{@colorBlurb: #F24335,242.67.53,DTSB|Red}
+
+</div></div>
+
+{@colorTable: #FABF2F,250.191.47,Lightning|Yellow&#2A3593,42.53.147,Bay|Blue&#9F29AE,159.41.174,Grape|Soda&#8BC14C,139.193.76,Sushi&#1965BF,25.101.191,Denim}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 

@@ -31,7 +31,9 @@ h2{
     color:#999;
     text-align:center;
 }
-
+.centeredText{
+    text-align:center;
+}
 .homeContainer .inner{
     margin-top:10%;
     margin-bottom:10%;
@@ -96,6 +98,30 @@ h2{
     opacity:1;
 }
 
+/*css for colorBlurbs*/
+.colorBlurb{
+    width:100%;
+    text-align:center;
+}
+.colorDescBox{
+    margin-top:20px;
+}
+.colorName{
+    font-size:20px;
+    font-weight:bold;
+}
+.hexCode, .rgbCode{
+    font-size:18px;
+    color:#676767;
+    font-weight:bold;
+}
+.colorWindow {
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 180px;
+}
+
 /*column code * responsive code*/
 .halfWidth{
     width:49%;
@@ -106,6 +132,10 @@ h2{
     width:32.25%;
     display:inline-block;
     margin:0.25%;
+}
+
+.row .thirdWidth{
+    vertical-align:top;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {

@@ -11,7 +11,7 @@
 
 //TODO: Create a plugin for and replace image code, image download code, columns, etc. 
 //Factory for building remarkable-embed plugins
-const {Plugin: Embed, extensions} = require('remarkable-embed');
+const {Plugin: Embed} = require('remarkable-embed');
 
 
 const createVariableInjectionPlugin = () => {
@@ -19,7 +19,7 @@ const createVariableInjectionPlugin = () => {
 
   const embed = new Embed()
   embed.register('colorBlurb', require('./static/js/colorPlugin.js'))
-
+  embed.register('colorTable', require('./static/js/colorTable.js'))
 
   return (md, options) => {
   if (!initializedPlugin) {
