@@ -4,8 +4,6 @@ title: Brandjectives™ Overview
 sidebar_label: Brandjectives™ Overview
 ---
 
-So what are brandjectives™? At J2, Brandjectives™ are how we communicate the over-arching themes of a brand. Brandjectives are both adjectives that describe your business, and objectives for your marketing. Aim to fulfill every brandjective with every piece of marketing material that you create.
-    
 ## Brandjectives™
 <img class="downloadable" src="../img/DTSB-Outdoor-Sign.jpg">
 <p class="descriptionText">Clear Outdoor Signage</p>
