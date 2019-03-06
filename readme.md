@@ -14,9 +14,9 @@ In order to get columns, images, etc, some basic HTML must be used.
 Simply add the image to the static/img/ directory, and then copy the code below and replace the filename with your filename. 
 
 HTML:
-'''html
+```html
 <img src="../img/yourpicnamehere.jpg">
-'''
+```
 
 
 #### Making an image downloadable
@@ -24,9 +24,9 @@ HTML:
 All that must be done to make an image downloadable is adding class="downloadable" right after the html image tag.
 
 HTML:
-'''html
+```html
 <img class="downloadable" src="../img/yourpicnamehere.jpg">
-'''
+```
 
 
 #### Adding columns for multiple pieces of content/images per row.
@@ -34,16 +34,16 @@ HTML:
 Adding columns is pretty simple, copy the code from the box below for your desired amount of columns, then replace each columns content with your own.
 
 Two Columns:
-'''html
+```html
 <div class="halfWidth">Your Content or Image</div><div class="halfWidth">Your Content or Image 2</div>
-'''
+```
 
 Example with downloadable images:
-'''html
+```html
 <div class="halfWidth"><img class="downloadable" src="../img/WhatWeDo.png"></div><div class="halfWidth"><img class="downloadable" src="../img/WhatWeDo.png"></div>
-'''
+```
 
 Three Columns:
-'''html
+```html
 <div class="thirdWidth">Content Col 1</div><div class="thirdWidth">Content Col 2</div><div class="thirdWidth">Content Col 3</div>
-'''
+```
