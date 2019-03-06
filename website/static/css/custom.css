@@ -60,6 +60,7 @@ h2{
 .image {
     position:relative;
 }
+
 .image img {
     width:100%;
     vertical-align:top;
@@ -84,7 +85,7 @@ h2{
     text-rendering: optimizeLegibility;
     font-size:40px;
     z-index:1;
-    bottom:50%;
+    bottom:calc(50% - 20px);
     padding:4px 10px;
     text-align:center;
     background:transparent;
@@ -95,6 +96,18 @@ h2{
     opacity:1;
 }
 
+/*column code * responsive code*/
+.halfWidth{
+    width:49%;
+    display:inline-block;
+}
+
+.thirdWidth{
+    width:32.25%;
+    display:inline-block;
+    margin:0.25%;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
@@ -102,6 +115,16 @@ h2{
 }
 
 @media only screen and (max-width: 1023px) {
+    .halfWidth{
+        width:100%;
+        display:block;
+        margin-top:20px;
+    }
+    .thirdWidth{
+        width:100%;
+        display:block;
+        margin-top:20px;
+    }
 }
 
 @media only screen and (min-width: 1400px) {

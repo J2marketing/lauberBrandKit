@@ -14,13 +14,13 @@ So what are brandjectives™? At J2, Brandjectives™ are how we communicate the
 
 DTSB needs to, above all else, communicate clearly. It doesn’t matter if all of our graphics/words are fun, engaging, exciting, and interesting, if they don’t have any helpful information. 
 
-<img class="downloadable" src="../img/SchoolListings.png">
+<div class="thirdWidth"><img class="downloadable" src="../img/SchoolListings.png"></div><div class="thirdWidth"><img class="downloadable" src="../img/SchoolListings.png"></div><div class="thirdWidth"><img class="downloadable" src="../img/SchoolListings.png"></div>
 
 ## Local
 
 The most obvious, and yet the most important goal is to be local. Everything we do should focus on South Bend.
 
-<img class="downloadable" src="../img/WhatWeDo.png">
+<div class="halfWidth"><img class="downloadable" src="../img/WhatWeDo.png"></div> <div class="halfWidth"><img class="downloadable" src="../img/WhatWeDo.png"></div>
 
 ## Orci
 
