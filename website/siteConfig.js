@@ -8,6 +8,33 @@
 // See https://docusaurus.io/docs/site-config for all the possible
 // site configuration options.
 
+
+//TODO: Create a plugin for and replace image code, image download code, columns, etc. 
+//Factory for building remarkable-embed plugins
+const {Plugin: Embed, extensions} = require('remarkable-embed');
+
+
+const createVariableInjectionPlugin = () => {
+  let initializedPlugin;
+
+  const embed = new Embed()
+  embed.register('colorBlurb', require('./static/js/colorPlugin.js'))
+
+
+  return (md, options) => {
+  if (!initializedPlugin) {
+    initializedPlugin = {
+      
+      hook: md.use(embed.hook)
+    };
+  }
+
+  return initializedPlugin.hook;
+  };
+};
+
+
+
 // List of projects/orgs using your project for the users page.
 const users = [
   {
@@ -90,6 +117,9 @@ const siteConfig = {
     theme: 'default',
   },
 
+  markdownPlugins: [
+    createVariableInjectionPlugin()
+  ],
   // Add custom scripts here that would be placed in <script> tags.
   scripts: ['https://buttons.github.io/buttons.js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', '../js/imgDwnld.js'],
 
