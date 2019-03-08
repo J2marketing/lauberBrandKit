@@ -1,7 +1,7 @@
 ## J2 Marketing Brand Kit
 Welcome! This is a work in progress copy of the J2 brand kit system. Built on <a href="https://docusaurus.io/">Docusaurus</a> and expanded with some additional functionality.
 
-For a demo, visit <a href="https://kind-noyce-85f720.netlify.com/">this link.</a>
+For a demo, visit <a href="https://j2BrandKit.netlify.com/">this link.</a>
 
 ### Instructions for J2 content writers:
 
