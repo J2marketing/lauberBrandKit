@@ -153,8 +153,14 @@ h2{
     margin:0.25%;
 }
 
-.row .thirdWidth{
+.row .thirdWidth, .row .halfWidth{
     vertical-align:top;
+}
+
+/*css for single button container*/
+.btnContainer{
+    width:100%;
+    text-align:center;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {

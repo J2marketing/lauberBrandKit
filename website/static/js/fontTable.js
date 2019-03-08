@@ -2,6 +2,7 @@ module.exports = function(code) {
 	//TODO: Potentially add a regex incase the order of elements is put in wrong. Error handling.
     var fontRows = code.split('&');
     var fontOutput = "";
+    var fontTableHeader = "<h3>"+fontRows[0].split(',')[0].split('-').join(' ')+" <strong style=\"color: white; background-color: gray; padding: 8px; border-radius: 90px;\">WEB</strong></h3>"
     for (font in fontRows){
         fontObj = fontRows[font].split(',');
         var fontName = fontObj[0].split('-').join(' ');
@@ -23,7 +24,7 @@ module.exports = function(code) {
         "</div>";
         var fontOutput = fontOutput+newRow;
     }
-	return fontOutput;
+	return "<div class=\"fontBlock\">"+fontTableHeader+fontOutput+"</div>";
 }
 
 
