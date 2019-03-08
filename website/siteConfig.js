@@ -108,7 +108,8 @@ const siteConfig = {
   */
   stylesheets: [
     'https://fonts.googleapis.com/css?family=Open+Sans:400,700',
-    'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
+    'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+    '../css/prism.css'
   ],
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} J2 Marketing`,
@@ -122,7 +123,7 @@ const siteConfig = {
     createVariableInjectionPlugin()
   ],
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', '../js/imgDwnld.js'],
+  scripts: ['https://buttons.github.io/buttons.js', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', '../js/imgDwnld.js', '../js/prism.js'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',

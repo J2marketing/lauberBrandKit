@@ -19,89 +19,57 @@ Clarity in information is key. For any body copy, use standard body copy text. F
 
 {@fontTable: Oswald,Normal,200&Oswald,Normal,300&Oswald,Normal,400&Oswald,Normal,500&Oswald,Normal,600&Oswald,Normal,700}
 
-**Usage:**
+<h3>Usage:</h3>
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--HTML Standard-->
-```html
-<link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet"> 
-```
-<!--HTML/JS @import-->
-```html
-<style>
-@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
-</style>  
-```
-<!--CSS-->
-```css
-font-family: 'Oswald', sans-serif;
-```
-<!--END_DOCUSAURUS_CODE_TABS-->
+**HTML**
+<pre><code class="language-html">&lt;link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet"&gt;</code></pre>
+
+**JS IMPORT**
+<pre><code class="language-js">@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');</code></pre>
+
+**CSS**
+<pre><code class="language-css">font-family: 'Oswald', sans-serif;</code></pre>
 
 {@fontTable: Rock-Salt,Normal,400}
 
-**Usage:**
+<h3>Usage:</h3>
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--HTML Standard-->
-```html
-<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet"> 
-```
-<!--HTML/JS @import-->
-```html
-<style>
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
-</style>   
-```
-<!--CSS-->
-```css
-font-family: 'Rock Salt', cursive;
-```
-<!--END_DOCUSAURUS_CODE_TABS-->
+**HTML**
+<pre><code class="language-html">&lt;link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet"&gt;</code></pre>
+
+**JS IMPORT**
+<pre><code class="language-js">@import url('https://fonts.googleapis.com/css?family=Rock+Salt');</code></pre>
+
+**CSS**
+<pre><code class="language-css">font-family: 'Rock Salt', cursive;</code></pre>
 
 {@fontTable: Prata,Normal,400}
 
-**Usage:**
+<h3>Usage:</h3>
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--HTML Standard-->
-```html
-<link href="http://fonts.googleapis.com/css?family=Prata" rel="stylesheet" type="text/css">
-```
-<!--HTML/JS @import-->
-```html
-<style>
-@import url('https://fonts.googleapis.com/css?family=Prata');
-</style>   
-```
-<!--CSS-->
-```css
-font-family: 'Prata', serif;
-```
-<!--END_DOCUSAURUS_CODE_TABS-->
+**HTML**
+<pre><code class="language-html">&lt;link href="http://fonts.googleapis.com/css?family=Prata" rel="stylesheet" type="text/css"&gt;</code></pre>
+
+**JS IMPORT**
+<pre><code class="language-js">@import url('https://fonts.googleapis.com/css?family=Prata');</code></pre>
+
+**CSS**
+<pre><code class="language-css">font-family: 'Prata', serif;</code></pre>
 
 ## Body Copy
 
 {@fontTable: Open-Sans,Normal,300&Open-Sans,Italic,300&Open-Sans,Normal,400&Open-Sans,Italic,400&Open-Sans,Normal,600&Open-Sans,Italic,600&Open-Sans,Normal,700&Open-Sans,Italic,700&Open-Sans,Normal,800&Open-Sans,Italic,800}
 
-**Usage:**
+<h3>Usage:</h3>
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--HTML Standard-->
-```html
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-```
-<!--HTML/JS @import-->
-```html
-<style>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-</style>    
-```
-<!--CSS-->
-```css
-font-family: 'Open Sans', sans-serif;
-```
-<!--END_DOCUSAURUS_CODE_TABS-->
+**HTML**
+<pre><code class="language-html">&lt;link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet"&gt;</code></pre>
+
+**JS IMPORT**
+<pre><code class="language-js">@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');</code></pre>
+
+**CSS**
+<pre><code class="language-css">font-family: 'Open Sans', sans-serif;</code></pre>
 
 ## Do's and Dont's
 
