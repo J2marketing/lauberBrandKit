@@ -25,6 +25,8 @@ Version 1.0.0 of the J2 Brand Kit is meant to encompass and provide all of the b
 + Add more visual indicators to the menu as you scroll through sections.
 + Add ability for users to add lightboxes to images
 + Complete mobile responsiveness. 
++ Add better folder structure for organizing image resources and seperating them from the site resources.
++ Dark mode???
 
 ### Have a suggestion for the next version?
 
