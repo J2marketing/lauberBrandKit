@@ -2,7 +2,7 @@
 id: colors
 title: Colors
 ---
-# Color Palettes
+## Color Palettes
 
 <h2 class="centeredText">Main Color Palette</h2>
 
