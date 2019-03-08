@@ -14,7 +14,7 @@ module.exports = function(code) {
         colorObj = colorRows[color].split(',');
         var colorHex = colorObj[0];
         var colorRGB = colorObj[1].split('.').join(', ');
-        var colorName = colorObj[2].split('|').join(' ');
+        var colorName = colorObj[2].split('-').join(' ');
         var newRow = '<tr>'+
         '<td class="tg-g4yi" style="background-color:'+colorHex+';"></td>'+
         '<td class="tg-eb10"><span style="font-weight: bold;">'+colorName+'</span></td>'+

@@ -14,11 +14,11 @@ title: Colors
 
 </div><div class="thirdWidth">
 
-{@colorBlurb: #212121,33.33.33,Also|Clouds|(During|a|Thunderstorm)}
+{@colorBlurb: #212121,33.33.33,Also-Clouds-(During-a-Thunderstorm)}
 
 </div><div class="thirdWidth">
 
-{@colorBlurb: #F24335,242.67.53,DTSB|Red}
+{@colorBlurb: #F24335,242.67.53,DTSB-Red}
 
 </div></div>
 
@@ -26,7 +26,7 @@ title: Colors
 
 <p class="descriptionText">Colors that may be used interchangeably to promote holidays, specific events, etc.</p>
 
-{@colorTable: #FABF2F,250.191.47,Lightning|Yellow&#2A3593,42.53.147,Bay|Blue&#9F29AE,159.41.174,Grape|Soda&#8BC14C,139.193.76,Sushi&#1965BF,25.101.191,Denim}
+{@colorTable: #FABF2F,250.191.47,Lightning-Yellow&#2A3593,42.53.147,Bay-Blue&#9F29AE,159.41.174,Grape-Soda&#8BC14C,139.193.76,Sushi&#1965BF,25.101.191,Denim}
 
 <p class="descriptionText">The full color palette is available below, and an eyedropper tool may be used to select </p>
 

@@ -3,7 +3,7 @@ module.exports = function(code) {
 	var colorVars = code.split(',');
 	var colorHex = colorVars[0];
 	var colorRGB = colorVars[1].split('.').join(',');
-	var colorName = colorVars[2].split('|').join(' ');
+	var colorName = colorVars[2].split('-').join(' ');
 		return '<div class="colorBlurb">'+
 		'<div class="colorWindow" style="background-color:'+colorHex+';"></div>'+
 		'<div class="colorDescBox">'+
