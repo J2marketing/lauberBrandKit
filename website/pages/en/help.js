@@ -21,18 +21,18 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'brandjectives.html',
-      )})`,
-      title: 'Browse Docs',
+      content: `Learn how to add content on the [github page.](
+        https://github.com/DIGIREN/j2BrandKit/blob/master/readme.md
+      )`,
+      title: 'Writing Info',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
+      content: 'Do you want your own freakin sweet brand kit? [Click Here](https://goj2.com/contact)',
+      title: 'Get your own',
     },
     {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
+      content: "Want something new to be added? Have an idea? Hate something? [Click Here](https://github.com/DIGIREN/j2BrandKit/issues) to open a new issue.",
+      title: 'Want a feature?',
     },
   ];
 
@@ -43,10 +43,8 @@ function Help(props) {
           <header className="postHeader">
             <h1>INFORMATION</h1>
           </header>
-          <p>This is the brand kit for J2 Marketing, if you've stumbled upon this page, feel free to poke around!
-            
-          </p>
-          <GridBlock contents={supportLinks} layout="threeColumn" />
+          <p>Welcome to the wonderful J2 Brand Kit System! Built on Docasaurus & expanded with custom functionality.</p>
+          <GridBlock className="infoPage" contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>
     </div>

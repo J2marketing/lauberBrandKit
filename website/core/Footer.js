@@ -38,11 +38,11 @@ class Footer extends React.Component {
             <a href={this.docUrl('brandjectives.html', this.props.language)}>
               Brandjectives Overview
             </a>
-            <a href={this.docUrl('brandlogo.html', this.props.language)}>
-              Guides (or other categories)
-            </a>
             <a href={this.docUrl('colors.html', this.props.language)}>
-              API Reference (or other categories)
+              Color Reference
+            </a>
+            <a href={this.docUrl('typography.html', this.props.language)}>
+              Typography Reference
             </a>
           </div>
           <div>
