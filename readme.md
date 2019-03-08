@@ -192,24 +192,24 @@ The "Usage:" boxes at the bottom of the font tables in this guide are also not a
 A usage box would look like this:
 
 ```md
-\*\*Usage:\*\*
+**Usage:**
 
-<\!--DOCUSAURUS_CODE_TABS-->
-<\!--HTML Standard-->
-\`\`\`html
+<!--DOCUSAURUS_CODE_TABS-->
+<!--HTML Standard-->
+```html
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-\`\`\`
-<\!--HTML/JS @import-->
-\`\`\`html
+```
+<!--HTML/JS @import-->
+```html
 <style>
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 </style>   
-\`\`\`
-<\!--CSS-->
-\`\`\`css
+```
+<!--CSS-->
+```css
 font-family: 'Open Sans', sans-serif;
-\`\`\`
-<\!--END_DOCUSAURUS_CODE_TABS-->
+```
+<!--END_DOCUSAURUS_CODE_TABS-->
 ```
 
 Just copy this block and paste it below any font tables that need this info displayed. All of the info in each tab was copied directly from the google fonts page for that font. 
