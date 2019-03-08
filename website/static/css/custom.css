@@ -121,6 +121,25 @@ h2{
     width: 200px;
     border-radius: 180px;
 }
+/*css for fontTable*/
+
+.fontContainer {
+    display: grid;
+    grid-template-columns: .5fr 1fr .5fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-items: stretch;
+    align-items: center;
+ }
+
+.largeFormFont{
+  font-size:72pt;
+  text-align:center;
+}
+
+.alphabetDisplay{
+  font-size:15pt;
+}
 
 /*column code * responsive code*/
 .halfWidth{

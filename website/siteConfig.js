@@ -20,6 +20,7 @@ const createVariableInjectionPlugin = () => {
   const embed = new Embed()
   embed.register('colorBlurb', require('./static/js/colorPlugin.js'))
   embed.register('colorTable', require('./static/js/colorTable.js'))
+  embed.register('fontTable', require('./static/js/fontTable.js'))
 
   return (md, options) => {
   if (!initializedPlugin) {
