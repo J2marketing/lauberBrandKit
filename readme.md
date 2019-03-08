@@ -187,33 +187,26 @@ The ref link for Open Sans in this example looks like this:
 
 **Including code boxes:**
 
-The "Usage:" boxes at the bottom of the font tables in this guide are also not automatically generated, but use the docusaurus code tabs system. 
+The "Usage:" boxes at the bottom of the font tables in this guide are also not automatically generated, but ~~use the docusaurus code tabs system.~~ use prism syntax highlighting. (there is a bug preventing the docusaurus tabs from working right on build to netlify)
 
 A usage box would look like this:
 
-```md
+```html
 **Usage:**
 
-<!--DOCUSAURUS_CODE_TABS-->
-<!--HTML Standard-->
-'''html
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-'''
-<!--HTML/JS @import-->
-'''html
-<style>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
-</style>   
-'''
-<!--CSS-->
-'''css
-font-family: 'Open Sans', sans-serif;
-'''
-<!--END_DOCUSAURUS_CODE_TABS-->
+<h3>Usage:</h3>
+
+**HTML**
+<pre><code class="language-html">&lt;link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet"&gt;</code></pre>
+
+**JS IMPORT**
+<pre><code class="language-js">@import url('https://fonts.googleapis.com/css?family=Rock+Salt');</code></pre>
+
+**CSS**
+<pre><code class="language-css">font-family: 'Rock Salt', cursive;</code></pre>
 ```
 
 Just copy this block and paste it below any font tables that need this info displayed. 
-Make sure upon copy, that you replace all the single quotes with backticks ```
 All of the info in each tab was copied directly from the google fonts page for that font. 
 
 ### Additional Info
