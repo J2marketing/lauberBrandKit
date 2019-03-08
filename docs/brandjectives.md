@@ -4,26 +4,44 @@ title: Brandjectives™ Overview
 sidebar_label: Brandjectives™ Overview
 ---
 
+## Brandjectives Overview
+
+So what are brandjectives™?
+
+At J2, Brandjectives™ are how we communicate the over-arching themes of a brand. Brandjectives are both adjectives that describe your business, and objectives for your marketing. Aim to fulfill every brandjective with every piece of marketing material that you create. 
+
 ## Brandjectives™
-<img class="downloadable" src="../img/DTSB-Outdoor-Sign.jpg">
+<img class="" src="../img/DTSB-Outdoor-Sign.jpg">
 <p class="descriptionText">Clear Outdoor Signage</p>
 
 ## Clear
 
 DTSB needs to, above all else, communicate clearly. It doesn’t matter if all of our graphics/words are fun, engaging, exciting, and interesting, if they don’t have any helpful information. 
 
-<div class="thirdWidth"><img class="downloadable" src="../img/SchoolListings.png"></div><div class="thirdWidth"><img class="downloadable" src="../img/SchoolListings.png"></div><div class="thirdWidth"><img class="downloadable" src="../img/SchoolListings.png"></div>
+<img class="" src="../img/SchoolListings.png">
 
 ## Local
 
 The most obvious, and yet the most important goal is to be local. Everything we do should focus on South Bend.
 
-<div class="halfWidth"><img class="downloadable" src="../img/WhatWeDo.png"></div> <div class="halfWidth"><img class="downloadable" src="../img/WhatWeDo.png"></div>
+<img class="" src="../img/WhatWeDo.png">
 
-## Orci
+<img class="" src="../img/Local2.png">
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis lectus dui, vel ultrices ante bibendum hendrerit. Aenean egestas feugiat dui id hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in tellus laoreet, eleifend nunc id, viverra leo. Proin vulputate non dolor vel vulputate. Curabitur pretium lobortis felis, sit amet finibus lorem suscipit ut. Sed non mollis risus. Duis sagittis, mi in euismod tincidunt, nunc mauris vestibulum urna, at euismod est elit quis erat. Phasellus accumsan vitae neque eu placerat. In elementum arcu nec tellus imperdiet, eget maximus nulla sodales. Curabitur eu sapien eget nisl sodales fermentum.
+## Accessible
 
-## Phasellus
+Everything you do needs to communicate an ease of use. Your events have attractions for the whole family.  That needs to come across in all of your communication.
 
-Phasellus pulvinar ex id commodo imperdiet. Praesent odio nibh, sollicitudin sit amet faucibus id, placerat at metus. Donec vitae eros vitae tortor hendrerit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae purus dolor. Duis suscipit ac nulla et finibus. Phasellus ac sem sed dui dictum gravida. Phasellus eleifend vestibulum facilisis. Integer pharetra nec enim vitae mattis. Duis auctor, lectus quis condimentum bibendum, nunc dolor aliquam massa, id bibendum orci velit quis magna. Ut volutpat nulla nunc, sed interdum magna condimentum non. Sed urna metus, scelerisque vitae consectetur a, feugiat quis magna. Donec dignissim ornare nisl, eget tempor risus malesuada quis.
+## Inclusive
+
+INCLUSIVE – South Bend is a diverse city. We need to showcase that diversity in our marketing materials.
+
+<img class="" src="../img/inclusive.jpg">
+<p class="descriptionText">An example of an inclusive billboard</p>
+
+## Business Focused
+
+DTSB continually strengthens the economic vitality of downtown. This business focus should be clear in all external communications.
+
+<img class="" src="../img/Business-Focused.jpg">
+<p class="descriptionText">Your brand maintains vibrancy and professionalism when necessary.</p>
