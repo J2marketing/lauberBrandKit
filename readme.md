@@ -196,23 +196,25 @@ A usage box would look like this:
 
 <!--DOCUSAURUS_CODE_TABS-->
 <!--HTML Standard-->
-```html
+'''html
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-```
+'''
 <!--HTML/JS @import-->
-```html
+'''html
 <style>
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 </style>   
-```
+'''
 <!--CSS-->
-```css
+'''css
 font-family: 'Open Sans', sans-serif;
-```
+'''
 <!--END_DOCUSAURUS_CODE_TABS-->
 ```
 
-Just copy this block and paste it below any font tables that need this info displayed. All of the info in each tab was copied directly from the google fonts page for that font. 
+Just copy this block and paste it below any font tables that need this info displayed. 
+Make sure upon copy, that you replace all the single quotes with backticks ```
+All of the info in each tab was copied directly from the google fonts page for that font. 
 
 ### Additional Info
 
