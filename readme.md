@@ -109,14 +109,14 @@ A color blurb requires 3 pieces of information. The name of the color, the hex c
 Adding a color blurb to the markdown looks like this:
 
 ```md
-{@colorBlurb: #EDEDED,237.237.237,Deep|Grey}
+{@colorBlurb: #EDEDED,237.237.237,Deep-Grey}
 ```
 
 Notice the formatting of the information that is fed into that module. It always MUST go: **hexcode,rgb,colorname**
 
 - Hexcode can be 3 or 6 digit but must include the #.
 - RGB must be seperated with periods NOT SPACES
-- The color name must be seperated with pipes (|) NOT SPACES
+- The color name (if more than one word) must be seperated with dashes - NOT SPACES
 - Color Blurbs only accept ONE INPUT. Use multiple modules for multiple blurbs.
 - Each item MUST be seperated by commas, NOT SPACES. 
 
@@ -129,7 +129,7 @@ These lists are for listing larger groups of colors in a table, and can be used 
 Adding a color list to the markdown looks like this: 
 
 ```md
-{@colorTable: #FABF2F,250.191.47,Lightning|Yellow&#2A3593,42.53.147,Bay|Blue&#9F29AE,159.41.174,Grape|Soda&#8BC14C,139.193.76,Sushi&#1965BF,25.101.191,Denim}
+{@colorTable: #FABF2F,250.191.47,Lightning-Yellow&#2A3593,42.53.147,Bay-Blue&#9F29AE,159.41.174,Grape-Soda&#8BC14C,139.193.76,Sushi&#1965BF,25.101.191,Denim}
 ```
 
 Here is a breakdown to make this easier to decipher:
@@ -141,11 +141,13 @@ Notice these formatting rules still apply:
 
 - Hexcode can be 3 or 6 digit but must include the #.
 - RGB must be seperated with periods NOT SPACES
-- The color name must be seperated with pipes (|) NOT SPACES
+- The color name (if more than one word) must be seperated with dashes - NOT SPACES
 - Each individual color item attribute in the table MUST be seperated by commas, NOT SPACES. 
 - Color tables can accept INFINITE inputs. Each color group of hexcode,rgb,colorname must be seperated with the & character.
 
 The information fed into this module must also be one continuous string with no spaces that follows the rules listed above. It will fail to render if the formatting does not match exactly.
+
+### Other rich content md plugins.
 
 #### Adding a font table:
 
@@ -157,6 +159,67 @@ Adding a font table to the markdown looks like this:
 ```
 
 This would generate a table containing every weight of open sans in the normal and italic styles. 
+
 A breakdown of the input:
 
 The font table can accept as many fonts as are fed into it. Each individual font row must look like this: **fontname,fontstyle,fontweight**
+And if you are displaying more than one font variation in a table the input must be seperated by & and would look like this: **fontname,fontstyle,fontweight&&fontname,fontstyle,fontweight**
+
+Note the following important info as you set up a font table:
+
+- The font table CAN accept multiple fonts, but SHOULD NOT be used this way. The reason being that each font table gets the header info from the name of the first font in your list. So if you tried to generate a table with Prata and Open Sans in it, it would say that the font name was Prata for both of them. Use SEPERATE font table objects for different fonts.
+- If you only need to display one variation, its OK to just put one input into the module.
+- The font name (if more than one word) must be seperated with dashes - NOT SPACES
+- Each attribute of the font must be seperated by commas, NOT SPACES
+- Font tables can accept INFINITE inputs. Each color group of fontname,fontstyle,fontweight must be seperated with the & character.
+
+##### Other important info about font tables.
+
+**Including font files:**
+
+You will be mainly using these to display google fonts. The reference to the google font MUST be included at the top of the typography MD file for these to work correctly.
+You must go to google fonts, select the font you want to use, go to the customize tab, select all variations, and then copy the HTML ref link from that box and paste it to the head of the typography page. 
+
+The ref link for Open Sans in this example looks like this: 
+```html
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+```
+
+**Including code boxes:**
+
+The "Usage:" boxes at the bottom of the font tables in this guide are also not automatically generated, but use the docusaurus code tabs system. 
+
+A usage box would look like this:
+
+```md
+\*\*Usage:\*\*
+
+<\!--DOCUSAURUS_CODE_TABS-->
+<\!--HTML Standard-->
+\`\`\`html
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+\`\`\`
+<\!--HTML/JS @import-->
+\`\`\`html
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+</style>   
+\`\`\`
+<\!--CSS-->
+\`\`\`css
+font-family: 'Open Sans', sans-serif;
+\`\`\`
+<\!--END_DOCUSAURUS_CODE_TABS-->
+```
+
+Just copy this block and paste it below any font tables that need this info displayed. All of the info in each tab was copied directly from the google fonts page for that font. 
+
+### Additional Info
+
+If something seems confusing, this brand guide has been fully populated with dummy content. You can reference that to figure out how to do most things that are included in this kit. 
+
+If you are still having trouble, feel free to open an issue and I will try to clear up some documentation!
+
+There are many planned fixes for the future of this project, and a lot of this can be cleaned up, but thats MVP for ya. 
+
+Markdown reference guide: [click](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
