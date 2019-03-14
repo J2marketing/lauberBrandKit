@@ -35,23 +35,23 @@ class Footer extends React.Component {
           </a>
           <div>
             <h5>Brand Kit</h5>
-            <a href={this.docUrl('brandjectives.html', this.props.language)}>
+            <a href={this.docUrl('brandjectives.html')}>
               Brandjectives Overview
             </a>
-            <a href={this.docUrl('colors.html', this.props.language)}>
+            <a href={this.docUrl('colors.html')}>
               Color Reference
             </a>
-            <a href={this.docUrl('typography.html', this.props.language)}>
+            <a href={this.docUrl('typography.html')}>
               Typography Reference
             </a>
           </div>
           <div>
             <h5>About Brand Kit</h5>
-            <a href={this.pageUrl('users.html', this.props.language)}>
+            <a href={this.pageUrl('users.html')}>
               User Showcase
             </a>
             <a
-              href={this.pageUrl('help.html', this.props.language)}
+              href={this.pageUrl('help.html')}
               target="_blank"
               rel="noreferrer noopener">
               Information
