@@ -88,13 +88,14 @@ p, a{
 
 .noPaddingTop{
     padding-top:0px;
+    padding-bottom:0px;
 }
 
 
 .projectTitle{
     color:#333132;
 }
-.homeContainer{
+.homeContainer, .usersSection{
     background-image: url('../img/lauber/whiteBackgroundLauber.jpg')
 }
 
