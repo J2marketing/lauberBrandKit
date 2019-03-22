@@ -57,8 +57,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Brand Kit', // Title for your website.
-  tagline: 'Home of the J2 digital brand kit.',
+  title: 'The Lauber Brand Kit', // Title for your website.
+  tagline: 'Home of The Lauber digital brand kit.',
   url: 'https://brand.goj2.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -83,14 +83,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/compressed-logo.png',
-  footerIcon: 'img/compressed-logo.png',
-  favicon: 'img/compressed-logo.png',
+  headerIcon: 'img/lauber/headerLogo.png',
+  footerIcon: 'img/lauber/headerLogo.png',
+  favicon: 'img/favicon.png',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#333333',
-    secondaryColor: '#222222',
+    primaryColor: '#EF3E2D',
+    secondaryColor: '#333132',
   },
 
   /* Custom fonts for website */
@@ -107,8 +107,9 @@ const siteConfig = {
   },
   */
   stylesheets: [
-    'https://fonts.googleapis.com/css?family=Open+Sans:400,700',
+    'https://use.typekit.net/ntz1bud.css',
     'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
+    'https://fonts.googleapis.com/css?family=Lekton',
     '../css/prism.css'
   ],
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
@@ -131,8 +132,8 @@ const siteConfig = {
   cleanUrl: true,
 
   // Open Graph and Twitter card images.
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: 'img/lauber/headerLogo.png',
+  twitterImage: 'img/lauber/headerLogo.png',
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,

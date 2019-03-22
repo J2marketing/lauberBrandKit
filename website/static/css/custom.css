@@ -1,24 +1,79 @@
 /* your custom css */
 
-h1, h2, h3, h4, h5, h6, p, a{
-    font-family: 'Open Sans', sans-serif;
+h3, h4, h5, h6{
+    font-family: motor, monospace;
+    font-weight: 700;
+    font-style: normal;
 }
+
 h1{
-    font-size:3em;
-    font-style:italic;
+    font-family: motor, monospace;
+    font-size:50px;
     text-transform:uppercase;
 }
 
 h2{
-    font-size:2em;
-    font-style:italic;
+    font-family: motor, monospace;
+    font-size:30px;
     text-transform:uppercase;
 }
 
-.mainContainer{
-    padding-top:0px;
+p, a{
+    font-family: 'Lekton', sans-serif;
+    font-weight: 700;
+    font-size:18px;
+    font-style: normal;
 }
 
+.post p{
+    font-size:20px;
+}
+
+/*homeTitleH2 and the block below need refactored, the ability to swap fonts on every section a lot easier needs to be a focus in the next version*/
+.homeTitleH2{
+    font-size:30px;
+}
+
+.navigationSlider .slidingNav ul li a{
+    font-family: motor, monospace;
+    text-transform:uppercase;
+    color:white;
+    font-size:20px;
+}
+
+/*customizations for content*/
+
+
+/*customizations for nav menus*/
+.toc .toggleNav .navGroup .navGroupCategoryTitle{
+    font-family: motor, monospace;
+    text-transform:uppercase;
+    font-size:30px;
+}
+
+.toc .toggleNav ul li a{
+    font-family: motor, monospace;
+    text-transform:uppercase;
+    font-size:20px;
+}
+
+.onPageNav a{
+    font-family: motor, monospace;
+    text-transform:uppercase;
+    font-size:18px;
+}
+
+/*footer customizations*/
+#footer h5{
+    font-family: motor, monospace;
+    text-transform:uppercase;
+    font-size:20px;
+}
+
+
+.projectTitle{
+    color:#333132;
+}
 .homeContainer{
     background-image: url('../img/memphis-colorful.png')
 }
@@ -27,12 +82,13 @@ h2{
     text-decoration: underline;
 }
 .button{
-    font-family:'Open Sans', sans-serif;
+    font-family: motor, monospace;
     font-weight:bold;
-    font-size:1em;
-    background-color:#333;
+    font-size:20px;
+    background-color:#333132;
     color:white;
     border-radius:0;
+    border-color:#333132;
 }
 .button:hover{
     transition: 400ms all;
@@ -63,6 +119,7 @@ h2{
 .blackSection .button:hover{
     background-color:#333;
     color:white;
+    border-color:white;
 }
 .productShowcaseSection h2{
     margin-top:0;

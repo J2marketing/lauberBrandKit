@@ -4,51 +4,20 @@ title: Photography
 ---
 ## Basic Principles
 
-### Visual Style
+## Food Photography
 
-Since we pull images from a large bank of photographers, always encourage photographers to follow the following basic principles:
+Use photography to show food in ways that are crafted and artisan. People purchase food based on visuals, so set it on an appetizing background and use low-aperture photography to isolate the food on a blurry background. Don't ever show raw ingredients - that might be interesting to your chef, but none of your insta followers want to see hunks of raw meat. Instead, always show food that is perfectly plated and paired with a good drink.
+You should never show food in groups or in ways that look manufactured in bulk. Always show food on its own plate. If you show a table with multiple entrees, vary which entrees are visible.
 
-- Get an even mix of close-ups and wide shots.
-- Always show people
-- Deliver raw photos as well as edited images
-- Edited images should be bright, vibrant, and favor skin tones
-- Images should never appear “studio-perfect.” Don’t airbrush, spot-correct, or otherwise modify images. Leave them as authentic as possible.
+## Drink Photography
 
-Show people in the real world! Take photographs that include local landmarks, or are distinctly south bend. We’re proud of our city, so always feel comfortable shooting people in front of brick walls, gritty backgrounds, in cement garages, etc.
-See below for some great examples of event photography.
+Set ingredients in the photo so that viewers can start to picture the taste of the drink. Is it a cinnamon drink? Place a cinnamon clove next to the glass to give the viewer an idea of test. Grapefruit-infused citrus drink? Show a chopped grapefruit next to the drink to make the mouth water. Occasionally show a drink in somebody's hand.
 
-<div class="row">
-<div class="thirdWidth"><img class="downloadable" src="../img/photoExamples1.jpg"><p class="descriptionText"><br>This bright photo shows 2 people enjoying art beat.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/photoExamples2.jpg"><p class="descriptionText"><br>A closeup shot of this musician helps us with future posters, and is great for social media. Note that skin-tones are accurate.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/photoExamples3.jpg"><p class="descriptionText"><br>This photo isn’t just of paintbrushes – rather, we have a hand holding them, boosting human presence.</p></div>
-</div>
+You should never show drinks in groups or in ways that seem manufactured in bulk. Always show the drinks on their own, rather than in rows of glasses. If you take a picture with multiple people, feel free to make them different specialty drinks and show them clinking glasses with different options. 
 
-<div class="row">
-<div class="thirdWidth"><img class="downloadable" src="../img/photoExamples4.jpg"><p class="descriptionText"><br>A wide shot helps show a large area with lots of activity.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/photoExamples5.jpg"><p class="descriptionText"><br>This closeup shows a few partygoers enjoying themselves.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/photoExamples6.jpg"><p class="descriptionText"><br>This wide shot showcases a room full of people, and keeps the lighting bright for a tent party.</p></div>
-</div>
+## Interior Photography
 
-<div class="row">
-<div class="thirdWidth"><img class="downloadable" src="../img/photoExamples7.jpg"><p class="descriptionText"><br>The more fun, the better!</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/photoExamples8.jpg"><p class="descriptionText"><br>This closeup shows a community member having fun, and highlights the actual event in detail.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/photoExamples9.jpg"><p class="descriptionText"><br>A wide shot of trick-or-treating gives us diverse shots to pull from for future materials.</p></div>
-</div>
-
-## Text on Images
-
-Text on images should be short, clear, and to-the-point. Headers should be between 2-10 words. The shorter, the better. If possible, all of the best information about an event should be conveyed in the main 2-5 words on a poster. Less is more.
-
-<div class="row">
-<div class="thirdWidth"><img class="downloadable" src="../img/textOnImages1.jpg"><p class="descriptionText"><br>Business Example</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/textOnImages2.jpg"><p class="descriptionText"><br>Community Event Example</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/textOnImages3.jpg"><p class="descriptionText"><br>Generic Post Example</p></div>
-</div>
-
-If your body copy ever becomes difficult to read, use semibold text to add more contrast.
-
-<img class="downloadable" src="../img/textOnImages4.jpg">
-<p class="descriptionText"><br>Semibold text in use on the website.</p>
+You have two options when photographing the interior: either completely empty, or bustling and filled with life. Either show your space completely clean, void of people, and ready for business. Or show it with the room filled with life, lots of tables full, and showcase the environment being filled with a crowd of pleased diners. When you show a space that just has one or two tables full, you'll be giving the unhealthy visual of a dining experience that is simply "meh." 
 
 ## Do's and Dont's
 

@@ -155,18 +155,18 @@ class Index extends React.Component {
       <Block layout="fourColumn" >
         {[
           {
-            content: 'View the J2 color library (spoiler: its mostly black)<br><br><a class="button" href="docs/colors.html">Color Library</a>',
+            content: 'View The Lauber color library.<br><br><a class="button" href="docs/colors.html">Color Library</a>',
             image: `${baseUrl}img/color_circle.png`,
             imageAlign: 'top',
             imageLink: 'docs/colors.html',
-            title: 'Color Library',
+            title: '<h2 class="homeTitleH2">Color Library</h2>'
           },
           {
-            content: 'View the J2 typography library.<br><br><a class="button" href="docs/typography.html">Typography Library</a>',
+            content: 'View The Lauber typography library.<br><br><a class="button" href="docs/typography.html">Typography Library</a>',
             image: `${baseUrl}img/text-color.png`,
             imageLink: 'docs/typography.html',
             imageAlign: 'top',
-            title: 'Typography',
+            title: '<h2 class="homeTitleH2">Typography</h2>',
           },
         ]}
       </Block>
@@ -195,7 +195,7 @@ class Index extends React.Component {
           <div className="logos">{showcase}</div>
           <div className="more-users">
             <a className="button" href={pageUrl('users.html')}>
-              More {siteConfig.title} Users
+              More J2 Brand Kit Users
             </a>
           </div>
         </div>
