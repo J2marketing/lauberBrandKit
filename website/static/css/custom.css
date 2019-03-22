@@ -29,6 +29,22 @@ p, a{
     font-size:20px;
 }
 
+/*recode this to be less hacky*/
+.dos{
+    display:inline;
+    background-image: linear-gradient(#fff 45%, #c1ffd4 35%);
+}
+.donts{
+    display:inline;
+    background-image: linear-gradient(#fff 45%, #ffa8a0 35%);
+}
+
+.dosDonts {
+    text-align:center;
+    line-height:2.2em;
+    margin-bottom:15px;
+}
+
 /*homeTitleH2 and the block below need refactored, the ability to swap fonts on every section a lot easier needs to be a focus in the next version*/
 .homeTitleH2{
     font-size:30px;
@@ -70,12 +86,16 @@ p, a{
     font-size:20px;
 }
 
+.navPusher .mainContainer{
+    padding-top:0px;
+}
+
 
 .projectTitle{
     color:#333132;
 }
 .homeContainer{
-    background-image: url('../img/memphis-colorful.png')
+    background-image: url('../img/lauber/whiteBackgroundLauber.jpg')
 }
 
 .infoPage a{
@@ -96,7 +116,7 @@ p, a{
     color:#333;
 }
 .descriptionText{
-    color:#999;
+    color:#555;
     text-align:center;
 }
 .centeredText{

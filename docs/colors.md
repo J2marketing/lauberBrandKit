@@ -3,44 +3,34 @@ id: colors
 title: Colors
 ---
 ## Color Palettes
-
+[comment]: <> (Used ndash character for dashes so my code didnt break.)
 <h2 class="centeredText">Main Color Palette</h2>
 
 <p class="descriptionText">The colors to be used in all primary communications.</p>
 
-<div class="row"><div class="thirdWidth"> 
+<div class="row">
+<div class="thirdWidth"> 
 
-{@colorBlurb: #EDEDED,237.237.237,Clouds}
+{@colorBlurb: #EF3E2D,94.24.18,Pantone-P-45–8-C}
 
-</div><div class="thirdWidth">
+</div>
+<div class="thirdWidth">
 
-{@colorBlurb: #212121,33.33.33,Also-Clouds-(During-a-Thunderstorm)}
+{@colorBlurb: #333132,51.49.50,Pantone-P-197–15-C}
 
-</div><div class="thirdWidth">
+</div>
 
-{@colorBlurb: #F24335,242.67.53,DTSB-Red}
+<div class="thirdWidth">
 
-</div></div>
+{@colorBlurb: #F8F8F8,248.248.248,Pantone-P-197–1-C}
+
+</div>
+
+</div>
 
 <h2 class="centeredText">Secondary Colors</h2>
 
-<p class="descriptionText">Colors that may be used interchangeably to promote holidays, specific events, etc.</p>
+{@colorTable: #F47A5B,244.122.91,Pantone-45–5-C&#545456,84.84.86,Pantone-P-179–13-C&#C2C4C6,194.196.198,Pantone-P-179–4-C}
 
-{@colorTable: #FABF2F,250.191.47,Lightning-Yellow&#2A3593,42.53.147,Bay-Blue&#9F29AE,159.41.174,Grape-Soda&#8BC14C,139.193.76,Sushi&#1965BF,25.101.191,Denim}
 
-<p class="descriptionText">The full color palette is available below, and an eyedropper tool may be used to select </p>
 
-<img class="downloadable" src="../img/fullPalette.jpg">
-
-## Do's and Dont's
-<div class="row">
-<div class="thirdWidth"><img class="downloadable" src="../img/dosDonts1.jpg"><p class="descriptionText"><strong><br>DO: </strong>Use DTSB red whenever possible.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/dosDonts2.jpg"><p class="descriptionText"><strong><br>DO: </strong>Use backgrounds tinted with colors from the color palette to spruce up otherwise un-branded images.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/dosDonts3.jpg"><p class="descriptionText"><strong><br>DO: </strong>Carefully use color in typography for additional pop.</p></div>
-</div>
-
-<div class="row">
-<div class="thirdWidth"><img class="downloadable" src="../img/dosDonts4.jpg"><p class="descriptionText"><strong><br>DON'T: </strong>Use too many colors.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/dosDonts5.jpg"><p class="descriptionText"><strong><br>DON'T: </strong>Use colors for type that blend into the images.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/dosDonts6.jpg"><p class="descriptionText"><strong><br>DO: </strong>Use contrast to create distinct images.</p></div>
-</div>

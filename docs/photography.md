@@ -22,24 +22,36 @@ You have two options when photographing the interior: either completely empty, o
 ## Do's and Dont's
 
 <div class="row">
-<div class="halfWidth"><img class="downloadable" src="../img/photographyDosDonts1.jpg"><p class="descriptionText"><br><strong>DO: </strong>Use images of community members as frequently as possible.</p></div>
-<div class="halfWidth"><img class="downloadable" src="../img/photographyDosDonts2.jpg"><p class="descriptionText"><br><strong>DO: </strong>Use images of community members as frequently as possible.</p></div>
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/do1.jpg"><p class="descriptionText dos"><strong>DO: </strong>Show drinks next to their ingredients to give a sense of taste.</p></div>
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/do2.jpg"><p class="descriptionText dos"><strong>DO: </strong>Show drinks are full.</p></div>
 </div>
 <br>
 <div class="row">
-<div class="halfWidth"><img class="downloadable" src="../img/photographyDosDonts3.jpg"><p class="descriptionText"><br><strong>DO: </strong>Be careful with your text placement</p></div>
-<div class="halfWidth"><img class="downloadable" src="../img/photographyDosDonts4.jpg"><p class="descriptionText"><br><strong>DO: </strong>Use small bits of text to give clarification.</p></div>
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/do3.jpg"><p class="descriptionText dos"><strong>DO: </strong>Show perfectly plated food.</p></div>
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/do4.jpg"><p class="descriptionText dos"><strong>DO: </strong>Show the oven with food and flames.</p></div>
 </div>
-<br>
-<img class="downloadable" src="../img/photographyDosDonts5.jpg"><p class="descriptionText"><br><strong>DO: </strong>Ensure your horizon lines are straight.</p>
 <br>
 <div class="row">
-<div class="thirdWidth"><img class="downloadable" src="../img/photographyDosDonts6.jpg"><p class="descriptionText"><br><strong>DON'T: </strong>Use photos with individuals that look sad, melancholy, or angry.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/photographyDosDonts7.jpg"><p class="descriptionText"><br><strong>DON'T: </strong>Use photos that are crooked or poorly cropped.</p></div>
-<div class="thirdWidth"><img class="downloadable" src="../img/photographyDosDonts8.jpg"><p class="descriptionText"><br><strong>DON'T: </strong>Use an overwhelming amount of text.</p></div>
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/do5.jpg"><p class="descriptionText dos"><strong>DO: </strong>Showcase healthy menu items.</p></div>
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/do6.jpg"><p class="descriptionText dos"><strong>DO: </strong>Show food/drink pairings.</p></div>
+</div>
+<br>
+<div class="row">
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/do7.jpg"><p class="descriptionText dos"><strong>DO: </strong>Showcase the industrial history of the building.</p></div>
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/do8.jpg"><p class="descriptionText dos"><strong>DO: </strong>Show the space filled with patrons.</p></div>
 </div>
 
-## Photo Library
-
-<h3 class="centeredText">All of our photos are available on dropbox.</h3>
-<div class="btnContainer"><a class="button" href="https://www.dropbox.com/sh/br00xa3upis5m0a/AACEXeiwB2kqF_T8hMOZ329xa?dl=0">Dropbox</a></div>
+<div class="row">
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/dont1.jpg"><p class="descriptionText donts"><strong>DON'T: </strong>Show uncooked food ingredients.</p></div>
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/dont2.jpg"><p class="descriptionText donts"><strong>DON'T: </strong>Show drinks that are half-empty.</p></div>
+</div>
+<br>
+<div class="row">
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/dont3.jpg"><p class="descriptionText donts"><strong>DON'T: </strong>Show the restaurant with just a few patrons.</p></div>
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/dont4.jpg"><p class="descriptionText donts"><strong>DON'T: </strong>Show anything that looks like it's being manufactured in bulk.</p></div>
+</div>
+<br>
+<div class="row">
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/dont5.jpg"><p class="descriptionText donts"><strong>DON'T: </strong>Show groups of patrons consuming the exact same entree or drink special. Mix it up!</p></div>
+<div class="halfWidth dosDonts"><img class="" src="../img/photography/dont6.jpg"><p class="descriptionText donts"><strong>DON'T: </strong>Show the oven when it's turned off. Flames should always be visible.</p></div>
+</div>
