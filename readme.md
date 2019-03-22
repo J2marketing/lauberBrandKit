@@ -1,9 +1,9 @@
-## J2 Marketing Brand Kit
-Welcome! This is a work in progress copy of the J2 brand kit system. Built on <a href="https://docusaurus.io/">Docusaurus</a> and expanded with some additional functionality.
+## The Lauber Brand Kit
+Welcome! This brand kit is based on the <a href="https://github.com/DIGIREN/j2BrandKit">J2 Brand Kit System</a>. Built on <a href="https://docusaurus.io/">Docusaurus</a> and expanded with some additional functionality.
 
 For a demo, visit <a href="https://j2BrandKit.netlify.com/">this link.</a>
 
-### Instructions for J2 content writers:
+### Instructions for content writers:
 
 All brand-kit pages are written in markdown, and they are pretty simple to edit, though some simple HTML must be used at times. 
 
@@ -100,7 +100,7 @@ Example with captioned downloadable images:
 ### Color Blurbs
 
 This section contains info on how to create individual blurbs of color for display on color pages.
-_WARNING: Error handling for these and other markdown plugins does not currently exist, but is a planned implementation for some point in the near future._
+_WARNING: Error handling for these and other markdown plugins does not currently exist, but is a planned implementation for some point in the near future. If you need to use a character that the parsing plugin already uses, you will need to use its unicode equivalent. Working on a fix for this._
 
 #### Adding a single color blurb:
 
@@ -163,7 +163,7 @@ This would generate a table containing every weight of open sans in the normal a
 A breakdown of the input:
 
 The font table can accept as many fonts as are fed into it. Each individual font row must look like this: **fontname,fontstyle,fontweight**
-And if you are displaying more than one font variation in a table the input must be seperated by & and would look like this: **fontname,fontstyle,fontweight&&fontname,fontstyle,fontweight**
+And if you are displaying more than one font variation in a table the input must be seperated by & and would look like this: **fontname,fontstyle,fontweight|fontname,fontstyle,fontweight**
 
 Note the following important info as you set up a font table:
 
@@ -171,7 +171,7 @@ Note the following important info as you set up a font table:
 - If you only need to display one variation, its OK to just put one input into the module.
 - The font name (if more than one word) must be seperated with dashes - NOT SPACES
 - Each attribute of the font must be seperated by commas, NOT SPACES
-- Font tables can accept INFINITE inputs. Each color group of fontname,fontstyle,fontweight must be seperated with the & character.
+- Font tables can accept INFINITE inputs. Each color group of fontname,fontstyle,fontweight must be seperated with the | character.
 
 ##### Other important info about font tables.
 
