@@ -1,256 +1,287 @@
 /* your custom css */
 
-h3, h4, h5, h6{
-    font-family: motor, monospace;
-    font-weight: 700;
-    font-style: normal;
+h3,
+h4,
+h5,
+h6 {
+  font-family: motor, monospace;
+  font-weight: 700;
+  font-style: normal;
 }
 
-h1{
-    font-family: motor, monospace;
-    font-size:50px;
-    text-transform:uppercase;
+h1 {
+  font-family: motor, monospace;
+  font-size: 50px;
+  text-transform: uppercase;
 }
 
-h2{
-    font-family: motor, monospace;
-    font-size:30px;
-    text-transform:uppercase;
+h2 {
+  font-family: motor, monospace;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
-p, a{
-    font-family: 'Lekton', sans-serif;
-    font-weight: 700;
-    font-size:18px;
-    font-style: normal;
+p,
+a {
+  font-family: "Lekton", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  font-style: normal;
 }
 
-.post p{
-    font-size:20px;
+.post p {
+  font-size: 20px;
 }
 
 /*recode this to be less hacky*/
-.dos{
-    display:inline;
-    background-image: linear-gradient(#fff 45%, #c1ffd4 35%);
+.dos {
+  display: inline;
+  background-image: linear-gradient(#fff 45%, #c1ffd4 35%);
 }
-.donts{
-    display:inline;
-    background-image: linear-gradient(#fff 45%, #ffa8a0 35%);
+.donts {
+  display: inline;
+  background-image: linear-gradient(#fff 45%, #ffa8a0 35%);
 }
 
 .dosDonts {
-    text-align:center;
-    line-height:2.2em;
-    margin-bottom:15px;
+  text-align: center;
+  line-height: 2.2em;
+  margin-bottom: 15px;
 }
 
 /*homeTitleH2 and the block below need refactored, the ability to swap fonts on every section a lot easier needs to be a focus in the next version*/
-.homeTitleH2{
-    font-size:30px;
+.homeTitleH2 {
+  font-size: 30px;
 }
 
-.navigationSlider .slidingNav ul li a{
-    font-family: motor, monospace;
-    text-transform:uppercase;
-    color:white;
-    font-size:20px;
+.navigationSlider .slidingNav ul li a {
+  font-family: motor, monospace;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
 }
 
 /*customizations for content*/
 
-
 /*customizations for nav menus*/
-.toc .toggleNav .navGroup .navGroupCategoryTitle{
-    font-family: motor, monospace;
-    text-transform:uppercase;
-    font-size:30px;
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+  font-family: motor, monospace;
+  text-transform: uppercase;
+  font-size: 30px;
 }
 
-.toc .toggleNav ul li a{
-    font-family: motor, monospace;
-    text-transform:uppercase;
-    font-size:20px;
+.toc .toggleNav ul li a {
+  font-family: motor, monospace;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
-.onPageNav a{
-    font-family: motor, monospace;
-    text-transform:uppercase;
-    font-size:18px;
+.onPageNav a {
+  font-family: motor, monospace;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 
 /*footer customizations*/
-#footer h5{
-    font-family: motor, monospace;
-    text-transform:uppercase;
-    font-size:20px;
+#footer h5 {
+  font-family: motor, monospace;
+  text-transform: uppercase;
+  font-size: 20px;
 }
 
-.noPaddingTop{
-    padding-top:0px;
-    padding-bottom:0px;
+.noPaddingTop {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-
-.projectTitle{
-    color:#333132;
+.projectTitle {
+  color: #333132;
 }
-.homeContainer, .usersSection{
-    background-image: url('../img/lauber/whiteBackgroundLauber.jpg')
+.homeContainer,
+.usersSection {
+  background-image: url("../img/lauber/whiteBackgroundLauber.jpg");
 }
-
-.infoPage a{
-    text-decoration: underline;
+.redBackground {
+  background-color: #ef3e2d;
 }
-.button{
-    font-family: motor, monospace;
-    font-weight:bold;
-    font-size:20px;
-    background-color:#333132;
-    color:white;
-    border-radius:0;
-    border-color:#333132;
+.infoPage a {
+  text-decoration: underline;
 }
-.button:hover{
-    transition: 400ms all;
-    background-color:white;
-    color:#333;
+.button {
+  font-family: motor, monospace;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #333132;
+  color: white;
+  border-radius: 0;
+  border-color: #333132;
 }
-.descriptionText{
-    color:#555;
-    text-align:center;
+.button:hover {
+  transition: 400ms all;
+  background-color: white;
+  color: #333;
 }
-.centeredText{
-    text-align:center;
+.button.isWhite {
+  background-color: white;
+  border-color: #333;
+  color: #333;
 }
-.homeContainer .inner{
-    margin-top:10%;
-    margin-bottom:10%;
+.button.isWhite:hover {
+  background-color: #333;
+  border-color: #333;
+  color: white;
 }
-.blackSection{
-    background-color:#333;
+.button.isRed {
+  background-color: #ef3e2d;
+  border-color: #ef3e2d;
 }
-.blackSection h2, .blackSection p{
-    color:white;
+.button.isRed:hover {
+  border-color: #ef3e2d;
+  background-color: white;
+  color: #ef3e2d;
 }
-.blackSection .button{
-    background-color:white;
-    color:#333;
+.descriptionText {
+  color: #555;
+  text-align: center;
 }
-.blackSection .button:hover{
-    background-color:#333;
-    color:white;
-    border-color:white;
+.centeredText {
+  text-align: center;
 }
-.productShowcaseSection h2{
-    margin-top:0;
+.homeContainer .inner {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
-.usersSection{
-    padding-top:10vh;
+.blackSection {
+  background-color: #333;
+}
+.blackSection h2,
+.blackSection p {
+  color: white;
+}
+.blackSection .button {
+  background-color: white;
+  color: #333;
+}
+.blackSection .button:hover {
+  background-color: #333;
+  color: white;
+  border-color: white;
+}
+.productShowcaseSection h2 {
+  margin-top: 0;
+}
+.usersSection {
+  padding-top: 10vh;
 }
 
 .image {
-    position:relative;
+  position: relative;
 }
 
 .image img {
-    width:100%;
-    vertical-align:top;
+  width: 100%;
+  vertical-align: top;
 }
-.image:after, .image:before {
-    position:absolute;
-    opacity:0;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
+.image:after,
+.image:before {
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 .image:after {
-    content:'\A';
-    width:100%; height:100%;
-    top:0; left:0;
-    background:rgba(0,0,0,0.75);
+  content: "\A";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.75);
 }
 .image:before {
-    width:100%;
-    color:#fff;
-    font-family: FontAwesome;
-    content: "\f019";
-    text-rendering: optimizeLegibility;
-    font-size:40px;
-    z-index:1;
-    bottom:calc(50% - 20px);
-    padding:4px 10px;
-    text-align:center;
-    background:transparent;
-    box-sizing:border-box;
-    -moz-box-sizing:border-box;
+  width: 100%;
+  color: #fff;
+  font-family: FontAwesome;
+  content: "\f019";
+  text-rendering: optimizeLegibility;
+  font-size: 40px;
+  z-index: 1;
+  bottom: calc(50% - 20px);
+  padding: 4px 10px;
+  text-align: center;
+  background: transparent;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
-.image:hover:after, .image:hover:before {
-    opacity:1;
+.image:hover:after,
+.image:hover:before {
+  opacity: 1;
 }
 
 /*css for colorBlurbs*/
-.colorBlurb{
-    width:100%;
-    text-align:center;
+.colorBlurb {
+  width: 100%;
+  text-align: center;
 }
-.colorDescBox{
-    margin-top:20px;
+.colorDescBox {
+  margin-top: 20px;
 }
-.colorName{
-    font-size:20px;
-    font-weight:bold;
+.colorName {
+  font-size: 20px;
+  font-weight: bold;
 }
-.hexCode, .rgbCode{
-    font-size:18px;
-    color:#676767;
-    font-weight:bold;
+.hexCode,
+.rgbCode {
+  font-size: 18px;
+  color: #676767;
+  font-weight: bold;
 }
 .colorWindow {
-    margin: 0 auto;
-    height: 200px;
-    width: 200px;
-    border-radius: 180px;
+  margin: 0 auto;
+  height: 200px;
+  width: 200px;
+  border-radius: 180px;
 }
 /*css for fontTable*/
 
 .fontContainer {
-    display: grid;
-    grid-template-columns: .5fr 1fr .5fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: stretch;
-    align-items: center;
- }
-
-.largeFormFont{
-  font-size:72pt;
-  text-align:center;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: center;
 }
 
-.alphabetDisplay{
-  font-size:15pt;
+.largeFormFont {
+  font-size: 72pt;
+  text-align: center;
+}
+
+.alphabetDisplay {
+  font-size: 15pt;
 }
 
 /*column code * responsive code*/
-.halfWidth{
-    width:49%;
-    display:inline-block;
+.halfWidth {
+  width: 49%;
+  display: inline-block;
 }
 
-.thirdWidth{
-    width:32.25%;
-    display:inline-block;
-    margin:0.25%;
+.thirdWidth {
+  width: 32.25%;
+  display: inline-block;
+  margin: 0.25%;
 }
 
-.row .thirdWidth, .row .halfWidth{
-    vertical-align:top;
+.row .thirdWidth,
+.row .halfWidth {
+  vertical-align: top;
 }
 
 /*css for single button container*/
-.btnContainer{
-    width:100%;
-    text-align:center;
+.btnContainer {
+  width: 100%;
+  text-align: center;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
@@ -260,16 +291,16 @@ p, a{
 }
 
 @media only screen and (max-width: 1023px) {
-    .halfWidth{
-        width:100%;
-        display:block;
-        margin-top:20px;
-    }
-    .thirdWidth{
-        width:100%;
-        display:block;
-        margin-top:20px;
-    }
+  .halfWidth {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+  }
+  .thirdWidth {
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
