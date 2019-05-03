@@ -16,29 +16,29 @@ Your logo is designed using a responsive design system. There are dozens of vari
 ## Color Variations
 
 <img class="downloadable" src="../img/lauberAssetsLogo/colorPrimary.png">
-
+<h3 class="centeredText">DOWNLOADS:</h3>
 <div class="row">
-<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/Ai/logoFilesColor.ai" class="button isRed" download>.AI FILE DOWNLOAD (Source)</a></div>
-<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/PDF/logoFilesFulLColor.pdf" class="button isRed" download>.PDF FILE DOWNLOAD (Print)</a></div>
-<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/pngs/Color.zip" class="button isRed" download>.PNG FILES DOWNLOAD (Social)</a></div>
+<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/Ai/logoFilesColor.ai" class="button isRed" download>.AI (Source)</a></div>
+<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/PDF/logoFilesFulLColor.pdf" class="button isRed" download>.PDF (Print)</a></div>
+<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/pngs/Color.zip" class="button isRed" download>.PNG (Social)</a></div>
 </div>
 
 ## Black Variations
 
 <img class="downloadable" src="../img/lauberAssetsLogo/blackPrimary.png">
-
+<h3 class="centeredText">DOWNLOADS:</h3>
 <div class="row">
-<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/Ai/logoFilesBlack.ai" class="button" download>.AI FILE DOWNLOAD (Source)</a></div>
-<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/PDF/logoFilesBlack.pdf" class="button" download>.PDF FILE DOWNLOAD (Print)</a></div>
-<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/pngs/Black.zip" class="button" download>.PNG FILES DOWNLOAD (Social)</a></div>
+<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/Ai/logoFilesBlack.ai" class="button" download>.AI (Source)</a></div>
+<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/PDF/logoFilesBlack.pdf" class="button" download>.PDF (Print)</a></div>
+<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/pngs/Black.zip" class="button" download>.PNG (Social)</a></div>
 </div>
 
 ## White Variations
 
 <img class="downloadable redBackground" src="../img/lauberAssetsLogo/whitePrimary.png">
-
+<h3 class="centeredText">DOWNLOADS:</h3>
 <div class="row">
-<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/Ai/logoFilesWhite.ai" class="button isWhite" download>.AI FILE DOWNLOAD (Source)</a></div>
-<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/PDF/logoFilesWhite.pdf" class="button isWhite" download>.PDF FILE DOWNLOAD (Print)</a></div>
-<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/pngs/White.zip" class="button isWhite" download>.PNG FILES DOWNLOAD (Social)</a></div>
+<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/Ai/logoFilesWhite.ai" class="button isWhite" download>.AI (Source)</a></div>
+<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/PDF/logoFilesWhite.pdf" class="button isWhite" download>.PDF (Print)</a></div>
+<div class="thirdWidth centeredText"><a href="../img/lauberAssetsLogo/pngs/White.zip" class="button isWhite" download>.PNG (Social)</a></div>
 </div>
